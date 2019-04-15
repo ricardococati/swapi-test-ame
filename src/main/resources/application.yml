@@ -1,0 +1,9 @@
+server:
+  port: 8666
+
+rest:
+  service:
+    uri: "swapi.co"
+
+endpoints:
+  env.keys-to-sanitize: password,secret,key,.​*credentials.*​,vcap_services,spring.data.mongodb.uri
